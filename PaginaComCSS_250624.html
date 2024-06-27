@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Página com estilizações CSS</title>
+    <style>
+        p {
+            background-color: blue;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .ClasseNova {
+            background-color: red;
+            color: yellow;
+            font-weight: normal;
+            text-align: right;
+        }
+
+        #p25 {
+            background-color: brown;
+            color: pink;
+        }
+    </style>
+    <link rel="stylesheet" href="Estilo.CSS">
+</head>
+
+<body>
+    <header>
+        <h1>Página HTML com estilizações .CSS</h1>
+        <hr />
+    </header>
+    <main>
+        <p>Parágrafo estilizado com CSS <u>INTERNO</u> através do seletor da tag, background AZUL, fonte negrito e texto
+            alinhado ao centro!</p>
+        <hr />
+        <p style="background-color: yellow; font-style: italic;">Parágrafo estilizado com CSS <u>INLINE</u>, background
+            AMARELO, fonte itálica, texto em negrito e alinhado ao centro através do seletor da tag <u>INTERNO</u>! </p>
+        <hr />
+
+        Linhas da lista estilizada com CSS em <u>ESCOPO</u>, background CINZA e texto alinhado ao centro!
+        <ul>
+            <style>
+                li {
+                    background-color: gray;
+                    text-align: center;
+                }
+            </style>
+            <li>teste 1</li>
+            <li> teste 2</li>
+        </ul>
+        <hr />
+        <p class="ClasseNova">Parágrafo estilizado com CSS <u>INTERNO</u> através do id da classe, background VERMELHO,
+            texto na cor AMARELA com fonte normal e alinhado a direita!</p>
+        <hr />
+        <p id="p25"> Parágrafo estilizado com CSS <u>INTERNO</u> através do id da tag, background MARRON e texto na cor
+            ROSA, texto em negrito e alinhado ao centro através do seletor da tag <u>INTERNO</u>!</p>
+        <hr />
+        <div class="classeExterna">
+            DIV e elementos filhos estilizados com CSS <u>EXTERNO</u> através do id da classe:
+            <ul>
+                <li class="classeExterna">BACKGROUND: PRETO</li>
+                <li class="classeExterna">COR DO TEXTO: BRANCO</li>
+                <li class="classeExterna">FONTE: ITÁLICA</li>
+            </ul>
+            <h2>Título 2 dentro da DIV</h2>
+            <p class="classeExterna">Parágrafo dentro da DIV</p>
+        </div>
+        <hr />
+    </main>
+    <footer>
+        <p style="background-color: white; font-weight: bolder;"> Página de estudo - Desenvolvida por Jônatas Souza</p>
+    </footer>
+</body>
+
+</html>
