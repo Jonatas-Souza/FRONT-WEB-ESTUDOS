@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url("Pacifico-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Monoton";
+    src: url("Monoton-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Honk";
+    src: url("Honk-Regular-VariableFont_MORF,SHLN.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nabla";
+    src: url("Nabla-Regular-VariableFont_EDPT,EHLT.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Classe1 {
+    font-family: Pacifico;
+    background-color: chocolate;
+    border: 2px solid black;
+    padding: 5px;
+    color: aqua;
+    font-size: x-large;
+}
+
+.Classe2 {
+    font-family: Monoton;
+    background-color: black;
+    border: 2px solid blue;
+    padding: 5px;
+    color: ghostwhite;
+    font-size: x-large;
+    word-spacing: 4px;
+}
+
+.Classe3 {
+    font-family: Honk;
+    background-color: white;
+    border: 2px solid red;
+    padding: 5px;
+    font-size: 35px;
+}
+
+.Classe4 {
+    font-family: Nabla;
+    background-color: purple;
+    border: 2px solid yellow;
+    padding: 5px;
+    font-size: 35px;
+}
